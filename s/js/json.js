@@ -1,0 +1,72 @@
+(function(){
+    var sites = { items:[
+	{"web":"115网盘","url":"http://www.115.com/","id":["13202261476","info@vdook.com","monday@vdook.com","enook@126.com","mp3lrc@163.com"]},
+	{"web":"139邮箱","url":"http://mail.10086.cn/","id":["looki"]},
+	{"web":"360云盘","url":"http://i.360.cn/login","id":["esyy@qq.com"]},
+	{"web":"51job","url":"http://my.51job.com/my/My_SignIn.php","id":["chqtext","looki@126.com","biz1"]},
+	{"web":"51帐号","url":"http://passport.51.com/?gourl=http%3A%2F%2Fmy.51.com%2F","id":["bosity"]},
+	{"web":"58同城","url":"http://passport.58.com/login/","id":["good20@126.com","gunii@126.com"]},
+	{"web":"@vdook","url":"http://mail.vdook.com/","id":["info","monday","tuesday","wednesday","thursday","friday","saturday","sunday","enook","tony","gamebox","gift","mall","sales","shop","d1","d2","d3","d4","d5","d6","d7","d8","d9"]},
+	{"web":"CJOL","url":"http://www.cjol.com/JobSeekers/Login.aspx?ReturnUrl=%2fjobseekers%2fDefault.aspx","id":["chqtext","esyriv"]},
+	{"web":"CSND.NET","url":"https://passport.csdn.net/account/loginbox?callback=logined&hidethird=1&from=http%3a%2f%2fwww.csdn.net%2flogin","id":["esyy@qq.com"]},
+	{"web":"DNSpod帐号","url":"http://www.dnspod.cn/Login","id":["esyy@qq.com"]},
+	{"web":"EBAY帐号","url":"https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&_trksid=m570.l3348","id":["esyy@qq.com"]},
+	{"web":"K.ai","url":"http://k.ai/v2/login.php","id":["i.good@qq.com","info1@qq.com"]},
+	{"web":"NameCheap","url":"https://www.namecheap.com/myaccount/login.aspx","id":["vdook"]},
+	{"web":"PHPcloud","url":"https://my.phpcloud.com/user/login","id":["esyy@qq.com","enook2@gmail.com","tony@ky-made.com","winfo@foxmail.com","eslpod@yeah.net"]},
+	{"web":"PayPal","url":"https://www.paypal.com/c2/cgi-bin/webscr?cmd=_login-run","id":["forgoods@gmail.com"]},
+	{"web":"QQ企业邮箱","url":"http://exmail.qq.com/login","id":["info@ztgame.biz","biztony"]},
+	{"web":"QQ帐号","url":"http://ui.ptlogin2.qq.com/cgi-bin/login?appid=46000101&style=13&lang=&low_login=1&hide_title_bar=1&hide_close_icon=1&self_regurl=http%3A//reg.t.qq.com/index.php&s_url=http%3A%2F%2Ft.qq.com&daid=6","id":["260575899","24184527","923741126","858515884","421841542","859083587","908577465","gift@vdook.com","enook@126.com"]},
+	{"web":"QQ邮箱","url":"https://mail.qq.com/cgi-bin/loginpage","id":["esyy","1407197171","1417214946","e.book","i.good","1405146605","aninfo","info1","260575899","1407383885","gunii","biz","908577465","1323117987","chq8"]},
+	{"web":"SF.net","url":"https://sourceforge.net/account/login.php?return_to=%2Faccount%2Fprojects","id":["enookchang","aenookcn","vdook","tonyvdook","kymade","wwwvdookcom"]},
+	{"web":"SOHU帐号","url":"http://i.sohu.com/login/logon.do","id":["wbiz@sohu.com","biz8@sogou.com"]},
+	{"web":"Zoho帐号","url":"https://accounts.zoho.com/login?servicename=ZohoPC&serviceurl=https://docs.zoho.com/index.do","id":["vdook.com"]},
+	{"web":"aau.cn","url":"http://bbs.aau.cn/","id":["esyy"]},
+	{"web":"aliYun邮箱","url":"https://passport.alipay.com/mini_login.htm?lang=&appName=yunmail&appEntrance=yunmail&cssLink=&styleType=vertical&bizParams=&notLoadSsoView=&notKeepLogin=&rnd=0.6392886911678637","id":["info1"]},
+	{"web":"autoitx","url":"http://www.autoitx.com/logging.php?action=login&sid=YzLcSl&infloat=yes&handlekey=login&inajax=0&ajaxtarget=fwin_content_login","id":["esyy"]},
+	{"web":"hotmail","url":"https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1376581535&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fmail.live.com%2Fmail%2F&lc=2052&id=64855&mkt=zh-cn&cbcxt=mai","id":["mrtonychen@hotmail.com","biz9@msn.com","vdook@msn.com","enook@outlook.com","chq8@live.cn"]},
+	{"web":"kilu.de","url":"http://www.kilu.de/login","id":["diylook@gmail.com"]},
+	{"web":"topsage","url":"http://hi.topsage.com/member.php?mod=logging&action=login","id":["top1235"]},
+	{"web":"yahoo.com","url":"https://login.yahoo.com/config/mail?.intl=us&.done=http%3A%2F%2Fus.mg5.mail.yahoo.com%2Fneo%2Flaunch%3Fnmig%3Dyes","id":["fashiongoods@yahoo.com"]},
+	{"web":"世纪佳缘","url":"http://login.jiayuan.com/","id":["info@enook.cn","esyriv@163.com","13202261476","looki@126.com","good20@126.com"]},
+	{"web":"中国铁路网","url":"https://kyfw.12306.cn/otn/login/init","id":["info1@qq.com"]},
+	{"web":"人人网","url":"http://www.renren.com/","id":["chqtext@126.com","info1@126.com","gift@vdook.com"]},
+	{"web":"凡客诚品","url":"https://login.vancl.com/Login/Login.aspx?http://my.vancl.com/","id":["info@vdook.com"]},
+	{"web":"凤凰网","url":"http://my.ifeng.com/?_c=index&_a=user-login","id":["esyy@qq.com"]},
+	{"web":"和讯","url":"http://reg.hexun.com/login.aspx?gourl=http%3a%2f%2fpost.blog.hexun.com%2fesyy%2fnewpostblog.aspx","id":["esyy@qq.com"]},
+	{"web":"城通网盘","url":"http://www.400gb.com/index.php?item=account&action=login","id":["esyy@qq.com"]},
+	{"web":"开心网","url":"http://login.kaixin001.com/","id":["esyy@qq.com"]},
+	{"web":"新浪会员","url":"http://login.sina.com.cn/","id":["chqmail@sina.com","esyy@sina.com","ainfo@sina.com","gift@vdook.com","enook@126.com"]},
+	{"web":"易名中国","url":"https://my.ename.cn/cas/sso?sid=2&backurl=http%3A%2F%2Fauction.ename.com%2Ffabu%2F","id":["esyy@qq.com"]},
+	{"web":"易趣","url":"http://login.eachnet.com/usr/login.do","id":["vipgoods","anikia"]},
+	{"web":"淘宝卖家","url":"https://login.taobao.com/member/login.jhtml?redirectURL=http%3A%2F%2Fvip.taobao.com%2Fvip_home.htm%3Fauto_take%3Dtrue","id":["100pop","星级商务","亲好店","linqinren","新优诚","好vip","jenniferllz","ifob","五星好店","eslpod","chqtext","云vip","biztony","listenheart","好知新","100ic","深圳文献港","影视音源","影视书馆","szdnet","文献港","宛儿999"]},
+	{"web":"猪八戒威客","url":"https://login.zhubajie.com/login","id":["esyy@qq.com"]},
+	{"web":"百度统计","url":"http://tongji.baidu.com/web/welcome/login","id":["gunii"]},
+	{"web":"百度网盘","url":"https://passport.baidu.com/v2/?login&fr=old&u=http%3A%2F%2Fpan.baidu.com%2F","id":["gunii","info@enook.cn","esyriv@163.com","enook","chqtext","esbox","biztony","enookdata","vdookdata","szdnet@gmail.com","vdook_com","eslpod_vdook","加州资料","勤奋英语","新优诚","影视书馆","影视音源","esyy@qq.com","13202261476"]},
+	{"web":"网易通行证","url":"https://reg.163.com/logins.jsp?type=1&url=http://entry.mail.126.com/cgi/ntesdoor?hid=10010102&lightweight=1&verifycookie=1&language=0&df=www163&style=-1","id":["chqtext@126.com","info1@126.com","looki@126.com","enook@126.com","gunii@126.com","chqpoem@163.com","esyriv@163.com","chqtext@163.com","tonybosity@163.com","gendyxu@163.com","wwwbiz@yeah.net","adinfo@yeah.net","forbiz@yeah.net","chqtext@yeah.net","gift@vdook.com","good99@yeah.net","good20@126.com","i29213@163.com","vdook1@163.com","eslpod@yeah.net","mp3lrc@163.com"]},
+	{"web":"美丽说","url":"http://www.meilishuo.com/user/login","id":["esyy@qq.com","enook@126.com"]},
+	{"web":"美团","url":"https://passport.meituan.com/account/login","id":["13202261476"]},
+	{"web":"谷歌邮箱","url":"https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2","id":["forgoods","diylook","vdook.com","szdnet","enook2"]},
+	{"web":"豆瓣","url":"http://www.douban.com/accounts/login","id":["chqtext@126.com","esyy@qq.com"]},
+	{"web":"赶集网","url":"http://love.ganji.com/login/","id":["good20@126.com"]},
+	{"web":"速卖通","url":"https://login.aliexpress.com/seller.htm","id":["info@enook.cn","tony@vdook.com","sales@vdook.com"]},
+	{"web":"量子统计","url":"http://www.linezing.com/login2.php","id":["星级商务"]},
+	{"web":"阿里巴巴","url":"https://login.taobao.com/member/login.jhtml?redirectURL=http%3A%2F%2Fvip.taobao.com%2Fvip_home.htm%3Fauto_take%3Dtrue","id":["商伯乐"]},
+	{"web":"鲜果阅读","url":"http://xianguo.com/login?rurl=/reader","id":["chqtext@126.com","looki@126.com"]}
+]}
+	//loadTree
+	var s="";var n = 1;
+	for(i=0;i<sites.items.length;i++){ 
+		if(sites.items[i].id.length>1){
+		  s+='<img src="d.gif" onClick="c(\'L-'+i+'\')"><a class="a1" href="'+sites.items[i].url+'#l'+n+'O">'+sites.items[i].web+'</a><a  href="'+sites.items[i].url+'#l'+n+'O">'+sites.items[i].id[0]+'</a><div class=a3 style="display:none" id="L-'+i+'">';
+		  n++;
+		  for(j=1;j<sites.items[i].id.length;j++){s+='<a href="'+sites.items[i].url+'#l'+n+'O">'+sites.items[i].id[j]+'</a>';n++;}
+		  s+='</div>';
+		}else{
+		  s+='<img src="e.gif"><a class="a1" href="'+sites.items[i].url+'#l'+n+'O">'+sites.items[i].web+'</a><a  href="'+sites.items[i].url+'#l'+n+'O">'+sites.items[i].id[0]+'</a>';
+		  n++;
+		}
+	}
+	document.querySelector("#s1_body").innerHTML=s;
+
+})();
