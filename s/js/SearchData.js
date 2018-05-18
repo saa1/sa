@@ -86,6 +86,7 @@ cn:[
     {title: "爱问",url: "http://iask.sina.com.cn/search?record=1&searchWord="},
     {title: "知道",url: "https://zhidao.baidu.com/search?word="},
     {title: "生意经",url: "http://search.china.alibaba.com/wiki/wiki_search.htm?n=y&keywords={keyword:gbk}"},
+	  {title:"宝宝",url:"https://baobao.baidu.com/mybaby/search/index?p=0&rn=10&q="},
     {title: "问问",url: "http://wenwen.sogou.com/s/?w="}
   ]
 },
