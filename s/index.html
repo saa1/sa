@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>多重搜索</title>
+<title>kk-a多重搜索</title>
 <link href="l/favicon.ico" rel="Shortcut Icon"/>
 <link rel="stylesheet" type="text/css" href="l/base.css" />
 </head>
@@ -39,13 +39,13 @@
 	<!--搜索历史记录-->
 	<div class="hisDom" id="hisDom" style="display:none" rel='this.style.display="none"'>
 <a rel="p(v())">打开预览</a>
-<a rel="iframeLoad('EncDec/index.htm?'+v(),1);">字符编码</a>
-<a rel="iframeLoad('../qrcode/qrcode.html?'+v(),1);">二维码</a>
-<a rel="iframeLoad('../other/code.html?'+v(),1);">身份证</a>
-<a rel="iframeLoad('editor/index.htm?'+v(),1)">HTML编辑</a>
-<a rel="iframeLoad('../htm/tool.html?'+v(),1)">Tools</a>
-<a rel="iframeLoad('../htm/regex.html?'+v(),1)">正则表达式</a>
-<a rel="iframeLoad('../other/img.htm?'+v(),1)">JS拼图</a>
+<a rel="iframeLoad('o/EncDec/index.htm?'+v(),1);">字符编码</a>
+<a rel="iframeLoad('o/qrcode/qrcode.html?'+v(),1);">二维码</a>
+<a rel="iframeLoad('o/other/code.html?'+v(),1);">身份证</a>
+<a rel="iframeLoad('o/editor/index.htm?'+v(),1)">HTML编辑</a>
+<a rel="iframeLoad('o/htm/tool.html?'+v(),1)">Tools</a>
+<a rel="iframeLoad('o/htm/regex.html?'+v(),1)">正则表达式</a>
+<a rel="iframeLoad('o/other/img.htm?'+v(),1)">JS拼图</a>
 <div class="clear"></div></div>
 </div>
 
@@ -55,66 +55,3 @@
 <script type="text/javascript" src="js/function.js"></script>
 </body>
 </html>
-<!--script type="text/javascript">
-	init();	//页面初始化
-</script>
-<script type="text/javascript">
-function v(){ return $('keyword').value.replace(/(^\s*)|(\s*$)/g,'');}
-function p(s){
-if(s.substr(0,7)=='http://'){window.open(s,"");}
-else if(s.length>30){  
-      pr=window.open("","Preview");
-      pr.document.write(s);  
-      }  
-  else iframeLoad("<TEXTAREA style=\"width:100%;height:200px;display:block\" onblur=\"document.getElementById(\'l\').value=this.value.length;document.getElementById(\'l2\').value=this.value.replace(\/[^\\x00-\\xff]\/gi,\'--\').length;\">"+s+"<\/TEXTAREA>字符数<input id=l>字节数<input id=l2>")
-}  
-function findout(o){
-//var s=o.toLowerCase();
-var s_2=prompt("first lettter<@@>second letter","/song/<@@>\"");
-var s_1=s_2.substr(0,s_2.indexOf("<@@>"));
-s_2=s_2.replace(s_1+"<@@>","");
-var a=o.split(s_1);
-for(i=1;i<a.length;i++) a[i]=s_1+a[i].substr(0,a[i].indexOf(s_2))+s_2+"\n"; 
-a.shift();
-iframeLoad("<TEXTAREA style=\"width:100%;height:90%;display:block\">"+a.join("")+"</TEXTAREA>"); 
-}
-function timego(s,url){
-if(!isNaN(url)){
-var uu=new Array(
-'http://yuehui.163.com/getmesghistory.do?id={id}#',
-'http://love.ganji.com/message/sendMessage/?uid={id}#'
-);/*'http://msg.jiayuan.com/chatlog.php?uid_hash={id}#',
-'http://music.baidu.com/song/{id}/download?from=naga#',*/
-url=uu[url];
-}
-var tt=prompt("时间间隔,3=3秒","3")*1000;
-iframeLoad("<script>var u='"+s+"';s=u.split(\",\");var c=s.length-1;var t;function timedCount(){u='"+url+"'.replace(/\{id\}/g,s[c]);window.open(u,'actionFrame');document.getElementById(\"st\").innerHTML=s[c].link(u)+'<br>第'+c;c--;t=setTimeout(\"timedCount()\","+tt+");if(c<0){stopCount();alert(\"over\");}}function stopCount(){clearTimeout(t)}<\/script><input type=button value=start rel=timedCount()><input type=button value=stop rel=stopCount()><br>正打开:<span id=\"st\"><\/span>\/<SCRIPT>document.write(c);<\/SCRIPT>个"); 
-}
-function bpanlink(o){
-var s=o.substring(3,o.indexOf(' 密码:'));
-p(o.replace(s,s.link(s)+'<BR>')); 
-}
-</script-->
-
-<!--a title="T.URL" rel="p('http://service.weibo.com/share/share.php?url='+encodeURIComponent(v())+'&title=urlshare&appkey=1343713053')"> t.URL</a>
-<a title="百度网盘链接处理" rel="bpanlink(v())">百度盘链接处理</a>
-<a title="二维码" rel="p('http://cli.im/qr?text='+v())">二维码</a>
-<a title="输入CNTV PID" rel="p('http://player.cntv.cn/flashplayer/players/htmls/smallwindow.html?time=1.497&pid='+v())">CNTV.PID</a>
-<a title="淘店搜索" rel="p('http://store.taobao.com/?search=y&q='+$GB2312.encodeURIComponent(v())+'&shop_nick='+$GB2312.encodeURIComponent(prompt('淘宝ID:','星级商务'))+'#bd')">淘店搜索</a>
-<a title="S8淘店搜索" rel="p('http://s8.taobao.com/search?q='+$GB2312.encodeURIComponent(v())+'&filterFineness=2&atype=b&olu=yes&sort=sale-desc&style=grid&tab=all&unid=0&mode=63&pid=mm_16165611_3417164_11043519&commend=all#J_FilterToolbar')">S8淘客链</a>
-<a title="输入QQ号" rel="p('http://qz.qq.com/'+v()+'/home')">QQ相册</a>
-<a title="输入QQ号" rel="p('http://qqxoo.com/main.html?qqid='+v())">QQ空间</a>
-<a rel="window.open('http://mail.live.com/mail/mail.aspx?rru=compose?action=compose&to=esyy@qq.com&Cc=looki@126.com,diylook@gmail.com&mailto=1&body='+encodeURIComponent(v())+'&Subject='+encodeURIComponent(v().substr(0,30)))">Hotmail</a>
-<a rel="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=looki@126.com&cc=esyy@qq.com,enook@outlook.com&body='+encodeURIComponent(v())+'&su='+encodeURIComponent(v().substr(0,30))+'#6=-1')">Gmail</a>
-<a title="输入QQ号" rel="p('http://seo.chinaz.com/?host='+v())">chinaZ</a>
-<a rel="findout(v())">找出字段</a>
-<a rel="timego(v(),prompt('直接输入URL默认jiayuan或\n0.163\n1.ganji\n2.mp3baidu','http://msg.jiayuan.com/chatlog.php?uid_hash={id}#'))">连续URL</a-->
-<!---
-
-
-
-function uncompile(s){
-d=prompt("1.decodeURI()\r\n2.decodeURIComponent()\r\n3.unescape()","1");
-if(d=="1"){s=decodeURI(s);}else if(d=="2"){s=decodeURIComponent(s);}else{s=unescape(s);}
-iframeLoad("<TEXTAREA style=\"width:100%;height:90%;display:block\">"+s+"</TEXTAREA>");   
-}--->
