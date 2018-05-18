@@ -80,15 +80,21 @@ cn:[
   ]
 },
 {
-  title: "知识",
+  title: "知道",
   items: [
-    {title: "百科",url: "http://baike.baidu.com/w?ct=17&lm=0&tn=baiduWikiSearch&pn=0&rn=10&word={keyword:gbk}&submit=search"},
-    {title: "互动",url: "http://so.hudong.com/s/doc/"},
-    {title: "搜狗",url: "http://baike.sogou.com/Search.e?sp=S"},
+	  {title: "经验",url: "https://jingyan.baidu.com/search?word="},
     {title: "爱问",url: "http://iask.sina.com.cn/search?record=1&searchWord="},
-    {title: "知道",url: "http://zhidao.baidu.com/q?word={keyword:gbk}&ct=17&pn=0&tn=ikaslist&rn=10"},
+    {title: "知道",url: "https://zhidao.baidu.com/search?word="},
     {title: "生意经",url: "http://search.china.alibaba.com/wiki/wiki_search.htm?n=y&keywords={keyword:gbk}"},
     {title: "问问",url: "http://wenwen.sogou.com/s/?w="}
+  ]
+},
+{
+  title: "百科",
+  items: [
+    {title: "百科",url: "https://baike.baidu.com/search?enc=utf8&word="},
+    {title: "互动",url: "http://so.hudong.com/s/doc/"},
+    {title: "搜狗",url: "http://baike.sogou.com/Search.e?sp=S"}
   ]
 },
 {
