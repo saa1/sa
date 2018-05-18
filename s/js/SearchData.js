@@ -11,15 +11,21 @@ cn:[
     ]
 },
 {
-  title: "资讯",
+  title: "新闻",
   items: [
     {title: "百度",url: "http://news.baidu.com/ns?word={keyword:gbk}"},
-    {title: "知乎",url: "http://zhihu.sogou.com/zhihu?ie=utf8&query="},
-    {title: "微信",url: "http://weixin.sogou.com/weixin?type=2&ie=utf8&tsn=1&ft=&et=&interation=&wxid=&usip=&query="},
     {title: "搜狗",url: "http://news.sogou.com/news?query={keyword:gbk}"},
     {title: "凤凰",url: "http://search.ifeng.com/sofeng/search.action?q="},
+    {title: "和讯",url: "http://so.hexun.com/default.do?type=all&key="},
+  ]
+},
+{
+  title: "社圈",
+  items: [
+    {title: "帖吧",url: "http://tieba.baidu.com/f/search/res?ie=utf-8&qw="},
+    {title: "知乎",url: "http://zhihu.sogou.com/zhihu?ie=utf8&query="},
+    {title: "微信",url: "http://weixin.sogou.com/weixin?type=2&ie=utf8&tsn=1&ft=&et=&interation=&wxid=&usip=&query="},
     {title: "微博",url: "http://s.weibo.com/weibo/{open}"},
-    {title: "sina",url: "http://uni.sina.com.cn/c.php?t=blog&ts=bpost&stype=all&k={keyword:gbk}"},
     {title: "和讯",url: "http://so.hexun.com/default.do?type=all&key="},
     {title: "CSDN",url: "http://so.csdn.net/search?t=blog&q="}
   ]
@@ -121,7 +127,7 @@ cn:[
 {
   title: "电商",
   items: [
-    {title: "淘宝",url: "http://search.taobao.com/search?q={keyword:gbk}"},
+    {title: "淘宝",url: "https://s.taobao.com/search?q="},
     {title: "一淘",url: "https://www.etao.com/search.htm?nq="},
     {title: "京东",url: "http://search.360buy.com/Search?keyword={keyword:gbk}"},
     {title: "1688",url: "http://search.china.alibaba.com/search/offer_search.htm?tracelog=chinaindex_searchsale&do=true&doSearchNews=true&catcount=10&keywords={keyword:gbk}"},
