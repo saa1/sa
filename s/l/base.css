@@ -1,0 +1,38 @@
+﻿ body{margin:0 auto;padding:0;background:#fff;font-size:12px!important;font-size:12px;font-size:11px;line-height:18px;color:#000;font-family:Verdana,"宋体";cursor:default;}
+body>div{margin-right:auto;margin-left:auto;}
+div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
+img,a img{border:0;margin:0;padding:0;vertical-align:middle;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+ul,ol,li{list-style:none;}
+table,td,input{font-size:12px;}
+HR{display:none;}
+UL{margin:0 auto;margin:0;}
+a{color:#000;text-decoration:none;}
+a:hover{text-decoration:underline;color:#000;}
+.unline,.unline a{text-decoration:underline;}
+.clear{clear:both;line-height:0;font-size:0;}
+.header{width:100%;height:53px;background:white url(bg_header.png) repeat-x;overflow:hidden;}
+.header .innerHeader{min-width:960px;margin:0 auto;height:53px;}
+.header .innerHeader h3{float:right;display:inline;padding:2px 10px 0 12px;}
+.header .innerHeader h3 a{display:block;padding:3px;white-space:nowrap;}
+.header .innerHeader h3 a:hover{background-color:#666;color:#FFF;text-decoration:none;}
+.header .innerHeader .logo{width:48px;height:48px;float:left;display:inline;margin-top:2px;margin-left:2px;margin-right:5px;}
+.header .innerHeader .logo a{cursor: pointer;}
+.header .innerHeader .searchCon{height:53px;float:left;display:inline;position:relative;}
+.header .innerHeader .searchCon .title-menu{float:left;display:inline;padding-top:2px;}
+.header .innerHeader .searchCon .title-menu a{float:left;color:#069;text-align:center;height:17px;display:block;padding:1px 3px;*padding:2px 4px 0;}
+.header .innerHeader .searchCon .title-menu a:hover{background-color:#999;color:#FFF;}
+.header .innerHeader .searchCon .searchText{padding-top:5px;}
+.header .innerHeader .searchCon .searchText .spBut{float:left;color:#7f6f4f;display:block;margin-left:4px;padding-right:3px;padding-left:3px;text-decoration:none;cursor:pointer;height:20px;background:#F4FBE1 url(bg_btn.png);border:1px #E4E1DA solid;}
+.header .innerHeader .searchCon .searchText .spBut:hover{background:#F4FADF url(bg_btn_hover.png) top left repeat-x;}
+.header .innerHeader .searchCon .searchText .searchBox{float:left;display:inline;width:375px;height:18px;border:1px #c0bbb4 solid;line-height:18px;padding-left:5px;background:url(bg_input_text.png) repeat-x;overflow:hidden;}
+.header .innerHeader .searchCon .searchText .searchBox:hover{border:1px #9c0 solid;background:url(bg_input_text_hover.png) repeat-x;}
+.wrapper .navPanel{border-top:1px solid #DAD7CF;border-bottom:1px solid #DAD7CF;background:#F2F0EE url(bg_btn.png) top left;padding:0 20px 0 15px;}
+.wrapper .navPanel span{float:left;display:inline;width:20px;height:20px;margin-right:2px;background-color:#CCC;margin-top:2px;text-align:center;cursor:pointer;line-height:20px;margin-left:2px;}
+.wrapper .navPanel .innerNavPanel{border-left:1px #E4E1DA solid;float:left;height:auto;width:98%;}
+.wrapper .innerNavPanel a{height:25px;float:left;line-height:25px;padding:0 10px 0 10px;display:block;color:#645A44;text-decoration:none;border-left:1px solid white;border-right:1px solid #E4E1DA;background:#F4FBE1 url(bg_btn.png);white-space:nowrap;}
+.wrapper .innerNavPanel a span{display:none;}
+.wrapper .innerNavPanel a:hover{color:#395500;background:#F4FADF url(bg_btn_hover.png) top left repeat-x;}
+.wrapper .hisDom {float: left;position: absolute;left: 25px;top: 25px;width: 89px;border: 1px #C0BBB4 solid;background-color: white;max-height: 160px;min-height: 20px;overflow-x: hidden;overflow-y: auto;z-index: 200;}
+.wrapper .hisDom a{height: 20px;line-height: 20px;padding-left: 5px;width: 87px;display: block;background-color: white;}
+a[rel]{cursor: pointer;}

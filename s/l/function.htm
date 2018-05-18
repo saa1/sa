@@ -1,0 +1,130 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML>
+<HEAD>
+<TITLE>Function v20121103.1</TITLE><META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style>
+<!--
+html,body,select {
+margin:0px;}
+*{font-size:12px}
+body{overflow:hidden}
+-->
+</style><script type="text/javascript" src="gb2312.js"></script>
+</HEAD>
+
+<BODY>
+<table border="0" cellspacing="0" cellpadding="0" class="mw">
+<FORM name=pad action="http://translate.google.com/translate_t" method="post" target="t"><tr><td>
+<TEXTAREA onDblClick="this.value=''" id=t name=text oncontextmenu="this.select()" style="width: 100%; height: 200px; font-size: 12px;overflow:auto;display:block" onKeyDown="if(event.keyCode==13) window.open('./index.htm?q='+encodeURI(this.value),'w')"></TEXTAREA>
+<INPUT type=hidden value=zh-CN name=hl><INPUT type=hidden value=UTF-8 name=ie><INPUT type=hidden value="en|zh-cn" name=langpair></td></tr></FORM><tr><td>
+<select style="width: 50px" name="r" onchange="document.pad.langpair.value=this.options[this.selectedIndex].value;document.pad.submit();return true;">
+<option value="">G翻译</option>
+<option value="auto|en">测>英</option>
+<option value="auto|zh-cn">测>简</option>
+<option value="fr|en">法>英</option>
+<option value="ja|en">日>英</option>
+<option value="zh-tw|zh-cn">繁>简</option>
+<option value="zh-cn|zh-tw">简>繁</option>
+<option value="en|zh-tw">英>繁</option>
+<option value="en|zh-cn">英>简</option>
+<option value="zh|en">简>英</option>
+</select><select style="width: 50px" name="l" onchange="document.yahoo.lp.value=this.options[this.selectedIndex].value;document.yahoo.trtext.value=v();document.yahoo.submit();return true;">
+<option value="">翻译</option>
+<option value="en_zh">英>简</option>
+<option value="zh_en">简>英</option>
+<option value="zh_zt">简>繁</option>
+<option value="zh_ja">简>日</option>
+<option value="ja_zh">日>简</option>
+<option value="zt_zh">繁>简</option>
+<option value="ja_en">日>英</option>
+<option value="ko_en">韩>英</option>
+<option value="ru_en">俄>英</option>
+<option value="fr_en">法>英</option>
+<option value="de_en">德>英</option>
+<option value="es_en">西>英</option>
+<option value="it_en">意>英</option>
+<option value="pt_en">葡>英</option>
+<option value="nl_en">荷>英</option>
+<option value="el_en">希>英</option>
+</select><select style="width:65px; height:18px" onchange="Javascript:eval(this.options[this.selectedIndex].value);this.options[0].selected='selected';">
+<option value="">功能</option>
+<option value="p(v())">预览</option>
+<option title="淘宝搜索" value="p('http://s.taobao.com/search?q='+v())">淘宝搜索</option>
+<option title="输入关键字" value="v().indexOf('http://')?window.open('../index.html?'+v(),''):p(v())">URL/搜索</option>
+<option title="网址收录查寻" value="p('http://seo.chinaz.com/?host='+v())">收录</option>
+<option title="baidu Wap" value="p('http://g6.baidu.com/?src='+v())">百度WAP</option>
+<option title="百度翻译" value="p('http://fanyi.baidu.com/translate#auto2auto|'+v())">百度翻译</option>
+<option title="星级商务淘店搜索" value="$('t').value='http://shop61003462.taobao.com/?search=y&q='+$GB2312.encodeURIComponent(v())+'#bd'">星级商务</option>
+<option title="淘店搜索" value="$('t').value='http://store.taobao.com/?search=y&q='+$GB2312.encodeURIComponent(v())+'&shop_nick='+$GB2312.encodeURIComponent(prompt('淘宝ID:','listenheart88'))+'#bd'">淘店搜索</option><option title="S8淘店搜索" value="$('t').value='http://s8.taobao.com/search?q='+$GB2312.encodeURIComponent(v())+'&filterFineness=2&atype=b&olu=yes&sort=sale-desc&style=grid&tab=all&unid=0&mode=63&pid=mm_16165611_0_0&commend=all#J_FilterToolbar'">S8淘客链</option>
+<option title="输入QQ号" value="p('http://qqxoo.com/main.html?qqid='+v())">Q空间</option>
+<option title="输入QQ号" value="p('http://dx1.gogoqq.com/albums.htm?uin='+v())">Q相册</option>
+<option value="generate(v())">编码</option>
+<option value="uncompile(v())">解码</option>
+<option value="findout(v())">找出</option>
+<option value="timego(v(),'http://yuehui.163.com/getmesghistory.do?id={id}#')">约会163</option>
+<option title="百度离线下载音乐,连续ID" value="timego(v(),'http://music.baidu.com/song/{id}/download?from=naga#')">百度MP3</option>
+<option value="timego(v(),prompt('URL前缀','http://msg.jiayuan.com/chatlog.php?uid_hash={id}#'))">连续URL</option>
+<option title="正则表达试收出内容" value="matchout(v())">正则</option>
+<option value="window.open('../editor/index.htm')">编缉htm</option>
+<option value="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=looki@126.com&cc=esyy@qq.com&body='+encodeURIComponent(v())+'#6=-1')">Gmail</option>
+</select></td></tr></table></div><div style="display:none">
+<form action="http://fanyi.cn.yahoo.com/translate_txt" method="post" name="yahoo" target="t2">
+<input type="hidden" value="utf-8" name="ei">
+<input type="hidden" value="bf-res" name="fr">
+<input type="hidden" value="done" name="doit">
+<input type="hidden" value="en_cn" name="lp">
+<input type="hidden" value="1" name="intl">
+<input type="hidden" value="urltext" name="tt"><textarea name="trtext"></textarea>
+</form></div><SCRIPT language=JavaScript>  
+if(location.search) $("t").value = decodeURIComponent(location.search.substring(1,location.search.length));
+  
+function p(s){
+if(s.substr(0,7)=='http://'){window.open(s,"");}
+else if(s.length>0){  
+      pr=window.open("","Preview");
+      pr.document.write(s);  
+      }  
+  else alert('Nothing for be previewed!')  
+}  
+function generate(s){
+d=prompt("1.encodeURI\r\n2.encodeURIComponent\r\n3.escape","1");
+if(d=="1"){s=encodeURI(s);}else if(d=="2"){s=encodeURIComponent(s);}else{s=escape(s);}
+$('t').value=s;  
+} 
+function uncompile(s){
+d=prompt("1.decodeURI()\r\n2.decodeURIComponent()\r\n3.unescape()","1");
+if(d=="1"){s=decodeURI(s);}else if(d=="2"){s=decodeURIComponent(s);}else{s=unescape(s);}
+$('t').value=s;  
+}
+function $(id){ return document.getElementById(id); }
+function v(){ return $('t').value.replace(/(^\s*)|(\s*$)/g,'');}
+function findout(o){
+//var s=o.toLowerCase();
+var s_2=prompt("first lettter<@@>second letter","/song/<@@>\"");
+var s_1=s_2.substr(0,s_2.indexOf("<@@>"));
+s_2=s_2.replace(s_1+"<@@>","");
+var a=o.split(s_1);
+for(i=1;i<a.length;i++) a[i]=s_1+a[i].substr(0,a[i].indexOf(s_2))+s_2+"\n"; 
+a.shift();
+$('t').value=a.join(""); 
+}
+function matchout(s){
+var c=new RegExp(prompt("正则表达试","http:\/\/www.renren.com\/profile.do\?id=\d{3,11}"),"g"); 
+var a = s.match(c); 
+if(a) $('t').value=a.join(prompt("分隔符",",")); 
+}
+function timego(s,url){
+//var url=prompt("URL前缀","http://yuehui.163.com/viewuser.do?id={id}#{id}"); 
+var tt=prompt("时间间隔,3=3秒","3")*1000;
+p("<script>var u='"+s+"';s=u.split(\",\");var c=s.length-1;var t;function timedCount(){u='"+url+"'.replace(/\{id\}/g,s[c]);window.open(u,'actionFrame');document.getElementById(\"st\").innerHTML=s[c].link(u)+'<br>第'+c;c--;t=setTimeout(\"timedCount()\","+tt+");if(c<0){stopCount();alert(\"over\");}}function stopCount(){clearTimeout(t)}<\/script><input type=button value=start onClick=timedCount()><input type=button value=stop onClick=stopCount()><br>正打开:<span id=\"st\"><\/span>\/<SCRIPT>document.write(c);<\/SCRIPT>个"); 
+}
+</script>
+</BODY>
+</HTML>
+<!--option title="输入QQ号" value="window.open('tencent://Message/?Uin='+v()+'&websiteName=q-zone.qq.com&Menu=yes')">QQ</option>
+<option title="输入淘宝号" value="p('http://www.taobao.com/webww/ww.php?ver=3&siteid=cntaobao&status=1&charset=utf-8&touid='+v())">旺旺</option>
+<option value="$('t').value=$('edit').innerHTML;divshow('t');divshow('edit')">代码</option>
+<div id="edit" contenteditable="true" style="border:1px solid #7f9db9;width:100%;height:200px;overflow:auto;display:none"></div> 
+function divshow(c_Str) {if(document.all(c_Str).style.display=='none') 
+{document.all(c_Str).style.display='block';} 
+else{document.all(c_Str).style.display='none';}} 
+<option title="输入QQ号" value="p('http://dx1.gogoqq.com/albums.htm?uin='+v())">Q相册</option-->
