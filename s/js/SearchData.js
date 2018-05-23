@@ -17,13 +17,13 @@ cn:[
     {title: "搜狗",url: "http://news.sogou.com/news?query={keyword:gbk}"},
     {title: "凤凰",url: "http://search.ifeng.com/sofeng/search.action?q="},
     {title: "和讯",url: "http://so.hexun.com/default.do?type=all&key="},
+    {title: "头条",url: "https://s.eastday.com/?kw="}
   ]
 },
 {
   title: "社圈",
   items: [
     {title: "帖吧",url: "http://tieba.baidu.com/f/search/res?ie=utf-8&qw="},
-    {title: "知乎",url: "http://zhihu.sogou.com/zhihu?ie=utf8&query="},
     {title: "微信",url: "http://weixin.sogou.com/weixin?type=2&ie=utf8&tsn=1&ft=&et=&interation=&wxid=&usip=&query="},
     {title: "微博",url: "http://s.weibo.com/weibo/{open}"},
     {title: "和讯",url: "http://so.hexun.com/default.do?type=all&key="},
@@ -80,12 +80,13 @@ cn:[
   ]
 },
 {
-  title: "知道",
+  title: "问答",
   items: [
 	  {title: "经验",url: "https://jingyan.baidu.com/search?word="},
-    {title: "爱问",url: "http://iask.sina.com.cn/search?record=1&searchWord="},
     {title: "知道",url: "https://zhidao.baidu.com/search?word="},
-    {title: "生意经",url: "http://search.china.alibaba.com/wiki/wiki_search.htm?n=y&keywords={keyword:gbk}"},
+    {title: "知乎",url: "http://zhihu.sogou.com/zhihu?ie=utf8&query="},
+    {title: "生意经",url: "https://s.1688.com/wiki/wiki_search.htm?keywords={keyword:gbk}"},
+	  {title: "明医",url: "http://mingyi.sogou.com/mingyi?query="},
 	  {title:"宝宝",url:"https://baobao.baidu.com/mybaby/search/index?p=0&rn=10&q="},
     {title: "问问",url: "http://wenwen.sogou.com/s/?w="}
   ]
@@ -95,6 +96,7 @@ cn:[
   items: [
     {title: "百科",url: "https://baike.baidu.com/search?enc=utf8&word="},
     {title: "互动",url: "http://so.hudong.com/s/doc/"},
+    {title: "学术",url: "http://scholar.sogou.com/xueshu?ie=utf-8&query="},
     {title: "搜狗",url: "http://baike.sogou.com/Search.e?sp=S"}
   ]
 },
@@ -121,13 +123,14 @@ cn:[
 {
   title: "词典",
   items: [
-    {title: "有道",url: "http://dict.yodao.com/search?q={keyword}"},
+    {title: "搜狗",url: "http://dict.sogou.com/cidian?ie=utf-8&query="},
+    {title: "百度翻译",url: "http://fanyi.baidu.com/translate#auto2auto|"},
     {title: "必应",url: "http://cn.bing.com/dict/search?q={keyword}&mkt=zh-CN&setlang=ZH"},
+    {title: "谷歌翻译",url: "http://translate.google.cn/?sl=auto&tl=zh-CN&js=n&prev=_t&hl=zh-CN&ie=UTF-8&layout=2&eotf=1&text={open}"},
+    {title: "有道",url: "http://dict.yodao.com/search?q={keyword}"},
     {title: "海词",url: "http://dict.cn/"},
     {title: "词霸",url: "http://www.iciba.com/"},
     {title: "词酷",url: "http://www.nciku.com/search/all/"},
-    {title: "百度翻译",url: "http://fanyi.baidu.com/translate#auto2auto|"},
-    {title: "谷歌翻译",url: "http://translate.google.cn/?sl=auto&tl=zh-CN&js=n&prev=_t&hl=zh-CN&ie=UTF-8&layout=2&eotf=1&text={open}"},
     {title: "汉典",url: "http://www.zdic.net/zd/search/?q={keyword}"}
   ]
 },
@@ -153,7 +156,7 @@ cn:[
   ]
 },
 {
-  "title": "code",
+  "title": "代码",
   "items": [
     {title: "github",url: "https://github.com/search?utf8=%E2%9C%93&ref=simplesearch&q={open}"},
     {title: "sourceforge",url: "https://sourceforge.net/directory/?q={open}"},
