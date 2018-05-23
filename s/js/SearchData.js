@@ -108,7 +108,6 @@ cn:[
         {title: "职友", url: "http://www.jobui.com/jobs?jobKw={keyword}" },
         {title: "英才",url: "http://searchjob.chinahr.com/SearchResult.aspx?indIDList=&myLocIDList=125,40&myLocParentIDList=-1,-1&isInterView=1&positionName={keyword:gbk}" },	
         {title: "智联", url: "http://search.zhaopin.com/jobs/request.asp?JobLocation=489&KeyWord={keyword}" },
-        {title: "HR33", url: "http://search.hr33.com/JobResult.aspx?keyWord={keyword}&keyWordType=0&searchType=advSearch" },
         {title: "俊才", url: "http://job.goodjob.cn/JobList.aspx?postDate=7&keyWordType=0&keyWord={keyword}"}
 	]
 },
