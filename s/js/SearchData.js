@@ -103,7 +103,8 @@ cn:[
 	"title": "求职",
 	"items": [
         {title: "51job",url: "http://search.51job.com/jobsearch/search_result.php?keyword={keyword:gbk}" },				
-        {title: "CJOL", url: "http://www.cjol.com/main/jobseeker/SearchResult_new.asp?KeyWord={keyword:gbk}" },		
+        {title: "CJOL", url: "http://www.cjol.com/main/jobseeker/SearchResult_new.asp?KeyWord={keyword:gbk}" },	
+        {title: "百聘",url: "http://zhaopin.baidu.com/quanzhi?query=" },		
         {title: "职友", url: "http://www.jobui.com/jobs?jobKw={keyword}" },
         {title: "英才",url: "http://searchjob.chinahr.com/SearchResult.aspx?indIDList=&myLocIDList=125,40&myLocParentIDList=-1,-1&isInterView=1&positionName={keyword:gbk}" },	
         {title: "智联", url: "http://search.zhaopin.com/jobs/request.asp?JobLocation=489&KeyWord={keyword}" },
