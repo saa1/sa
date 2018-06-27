@@ -36,7 +36,7 @@ if(sec%steptime==0){
 	//alert(start+'\n'+end+'\n'+url+'\n'+lnk[end]);
 	//lnk=document.querySelectorAll("p");
 	for(i=start;i<end;i++)str+= '<iframe src="seo.html?'+lnk[i]+'"></iframe>';
-	if(url!='shop.enook.cn')str = str.replace(/blog\.kk-a\.com/ig, url);
+	if(url!='blog.kk-a.com')str = str.replace(/blog\.kk-a\.com/ig, url);
 	document.querySelector("#lnk").innerHTML=str;str='';
 	document.querySelector("#qi").innerHTML='SEO: '+url+' ； 正在处理第 '+start+' ~ '+end+' 个URL,  还剩下 '+len+'-'+end+'='+(len-end);
 	start+=step;
