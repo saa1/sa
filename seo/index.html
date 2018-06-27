@@ -8,7 +8,7 @@
 
 <body>
 您在本页已经停留了<span id="qian_li_v"></span>， <span id="qi"></span> 个。<br><br><div id=lnk></div>
-<script src='udata.js'></script>
+<script src='udata2.js'></script>
 <SCRIPT language="javascript">
 <!--
 var sec=0;
@@ -36,7 +36,7 @@ if(sec%steptime==0){
 	//alert(start+'\n'+end+'\n'+url+'\n'+lnk[end]);
 	//lnk=document.querySelectorAll("p");
 	for(i=start;i<end;i++)str+= '<iframe src="seo.html?'+lnk[i]+'"></iframe>';
-	if(url!='shop.enook.cn')str = str.replace(/shop.enook.cn/ig, url);
+	if(url!='shop.enook.cn')str = str.replace(/blog\.kk-a\.com/ig, url);
 	document.querySelector("#lnk").innerHTML=str;str='';
 	document.querySelector("#qi").innerHTML='SEO: '+url+' ； 正在处理第 '+start+' ~ '+end+' 个URL,  还剩下 '+len+'-'+end+'='+(len-end);
 	start+=step;
