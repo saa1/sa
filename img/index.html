@@ -1,310 +1,154 @@
-
 <!doctype html>
-
 <html lang="zh">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>jQuery响应式自适应图片瀑布流代码</title>
-
 <style type="text/css">
-
 	body {
-
 		text-align: center;
-
 	}
-
-
-
 	.photo {
-
 		position: relative;
-
 	}
-
 	.title{
-
 		position: absolute;
-
 		bottom:20px;
-
 		left:0px;
-
 		text-align: center;
-
 		right:0px;
-
 		font-size:24px;
-
 		font-weight: bold;
-
 		color:#979797;
-
 	}
-
 	.photos {
-
 		margin:auto;
-
 		font-size:0px;
-
 	}
-
 </style>
-
 </head>
-
 <body>
-
 <div class="datouwang-container">
-
 	<div class="photos">
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">1</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">2</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">3</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">4</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">5</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x320.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x320.png">
 			<div class="title">6</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">7</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">8</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x900.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x900.png">
 			<div class="title">9</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/900x600.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/900x600.png">
 			<div class="title">10</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">11</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x280.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x280.png">
 			<div class="title">12</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">13</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x600.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x600.png">
 			<div class="title">14</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">15</div>
-
 		</div> 
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">16</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x900.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x900.png">
 			<div class="title">17</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/900x600.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/900x600.png">
 			<div class="title">18</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">19</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x280.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x280.png">
 			<div class="title">20</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">21</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x600.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x600.png">
 			<div class="title">22</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">23</div>
-
 		</div> 
-
 		<div class="photo">
-
-			<img src="images/600x400.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x400.png">
 			<div class="title">24</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/600x900.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/600x900.png">
 			<div class="title">25</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/900x600.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/900x600.png">
 			<div class="title">26</div>
-
 		</div>
-
 		<div class="photo">
-
-			<img src="images/900x600.png">
-
+			<img src="http://www.lanrenzhijia.com/demos/49/4910/demo/images/900x600.png">
 			<div class="title">27</div>
-
 		</div>
-
 	</div>
-
 </div>
-
-
-
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
-
 <script src="js/jquery.xgallerify.min.js"></script>
-
 <script type="text/javascript">
-
 var gallery = $('.photos').gallerify({
-
 	margin:5,
-
 	mode:'default',
-
 	lastRow:'adjust'
-
 });	
-
 </script>
 </div>
 </body>
