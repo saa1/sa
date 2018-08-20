@@ -1,5 +1,6 @@
 https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index/微信公众平台接口测试
 http://www.dooccn.com/php5.4/php5.4代码在线测试/php5.4在线执行
+http://caibaojian.com/es6/let.html/ES6文档
 http://www.runoob.com/cssref/css-selectors.html/CSS选择器|菜鸟教程
 https://www.yiibai.com/mysql/mysql_max_function.html/MySQL教程
 http://www.ofmonkey.com/docs/contenttype/Content-type参考
