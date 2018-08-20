@@ -3,10 +3,11 @@ cn:[
 {
   title: "网页",
   items: [
-    {title: "百度",url: "http://www.baidu.com/s?tn=enook.cn&ch=2&ie=utf-8&wd="},
+    {title: "百度",url: "http://www.baidu.com/s?tn=kk-a.com&ch=2&ie=utf-8&wd="},
+    {title: "搜狗",url: "https://www.sogou.com/web?query="},
     {title: "360",url: "http://so.360.cn/s?q="},
-    {title: "搜狗",url: "http://www.sogou.com/web?query={keyword:gbk}"},
-    {title: "Bing",url: "http://cn.bing.com/search?form=QBLH&filt=all&q="},
+    {title: "国搜",url: "http://www.chinaso.com/search/pagesearch.htm?q="},
+    {title: "Bing",url: "http://cn.bing.com/search?q="},
     {title: "WAP",url: "https://m.baidu.com/s?word="}
     ]
 },
