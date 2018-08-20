@@ -1,153 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--nobanner-->
 <html lang="zh-cn">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>bookmark</title>
 <style>
+    a {display: block;height:33px; width:95%; overflow:hidden;border-bottom: 1px solid #ddd; padding-left: 28px; line-height: 33px; background: url("http://v3.bootcss.com/favicon.ico") no-repeat 4px 8px/16px 16px; font-size: 81.25%;font-family: Roboto, DejaVu Sans, Arial, sans-serif; }
     a, u {text-decoration: none;}
-    a {display: block;}
-    u {color: #999;font-size: smaller}
-    dd {margin-bottom: 10px; }
-    dt {cursor: pointer}
-    dt:before {content: '- '}
-    dt.hide:before {content: '+ '}
-    dt.hide + dd {display: none}
-</style>
-<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
-<script src="../js/bookmark.js"></script>
+    a u {color: #999;font-size: smaller;display: none}
+    a:nth-of-type(odd) {background-color: #f9f9f9;}
+    a:hover {background-color: #d9edf7}
+    a:hover u {display: initial}
+</style><base target="_blank">
     </head><body>
-<dl>
-    <dt>代码手册</dt>
-    <dd>
-        <a href="https://www.yiibai.com/mysql/mysql_max_function.html">MySQL教程 <u>www.yiibai.com</u></a>
-        <a href="http://www.ofmonkey.com/docs/contenttype">Content-type参考<u>www.ofmonkey.com</u></a>
-    </dd>
+<a style="background-image: url('https://docs.segmentfault.com/favicon.ico')"><input id="kw"><button id="find">find</button> <button id="prev">Prev</button> <button id="next">Next</button></a>
+<div></div>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+<script src="bookmark.js"></script>
+</body></html>
 
-    <dt>API或框架</dt>
-    <dd>
-        <a href="http://v3.bootcss.com/css/#helper-classes">全局 CSS 样式Bootstrap v3中文文档 <u>v3.bootcss.com</u></a>
-        <a href="https://www.magentonotes.com/tool/layoutit/">Bootstrap可视化布局系统 <u>www.magentonotes.com</u></a>
-        <a href="https://github.com/Tencent?language=javascript">Tencent · GitHub <u>github.com</u></a>
-        <a href="http://fontello.com/">Fontello - icon fonts generator <u>fontello.com</u></a>
-        <a href="https://packagist.org/">compostor php package respository <u>packagist.org</u></a>
-        <a href="https://help.aliyun.com/document_detail/32099.html?spm=5176.87240.400427.47.BMw2bo">安装_PHP-SDK_SDK
-            参考_对象存储 OSS-阿里云 <u>help.aliyun.com</u></a>
-        <a href="https://www.yiiframework.com/extensions">Extensions | Yii PHP Framework <u>www.yiiframework.com</u></a>
-        <a href="http://docs.phalapi.net/#/v2.0/">PhalApi(π框架) <u>docs.phalapi.net</u></a>
-        <a href="http://ai.baidu.com/docs#/FaceLogin/top">文档中心--百度AI <u>ai.baidu.com</u></a>
-        <a href="http://cdn.code.baidu.com/">百度静态资源公共库 <u>cdn.code.baidu.com</u></a>
-        <a href="https://chajian.baidu.com/developer/extensions/api_index.html">百度浏览器应用开发文档 <u>chajian.baidu.com</u></a>
-        <a href="http://open.chrome.360.cn/extension_dev/overview.html">综述--扩展开发文档 <u>open.chrome.360.cn</u></a>
-        <a href="http://see.sl088.com/wiki/%E5%88%86%E7%B1%BB:Chrome%E6%89%A9%E5%B1%95">分类:Chrome扩展 <u>see.sl088.com</u></a>
-        <a href="https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index">微信公众平台 接口测试 <u>mp.weixin.qq.com</u></a>
-        <a href="http://www.dooccn.com/php5.4/">php5.4代码在线测试,php5.4在线执行 <u>www.dooccn.com</u></a>
-        <a href="http://www.runoob.com/cssref/css-selectors.html">CSS 选择器 | 菜鸟教程 <u>www.runoob.com</u></a>
-    </dd>
-
-    <dt>在线工具</dt>
-    <dd>
-        <a href="http://ocr.wdku.net/">文字识别/PDF转换 <u>ocr.wdku.net</u></a>
-        <a href="https://www.processon.com/popular">ProcessOn <u>www.processon.com</u></a>
-        <a href="https://tool.lu/">程序员的工具箱 <u>tool.lu</u></a>
-        <a href="http://sfz.uzuzuz.com/">身份证号码生成 <u>sfz.uzuzuz.com</u></a>
-        <a href="https://www.fakenamegenerator.com/">Generate a Random Name <u>www.fakenamegenerator.com</u></a>
-        <a href="http://dict.xiexingcun.com/">新华字典-首页 <u>dict.xiexingcun.com</u></a>
-    </dd>
-
-    <dt>网上办事</dt>
-    <dd>
-        <a href="https://szjzz.szga.gov.cn/index/queryHouseCode">深圳居住证平台 房屋编码查询<u>szjzz.szga.gov.cn</u></a>
-        <a href="http://www.szjs.gov.cn/bsfw/zdyw_1/zfbz/gxfgs/">公租房轮候信息公示-深圳住房和建设局 <u>www.szjs.gov.cn</u></a>
-        <a href="http://www.szga.gov.cn/JMHD/ZXTSDF/">信箱回复«警民互动«深圳市公安局 <u>www.szga.gov.cn</u></a>
-        <a href="http://zhixing.court.gov.cn/search/">全国法院被执行人信息查询 <u>zhixing.court.gov.cn</u></a>
-        <a href="http://www.szsi.gov.cn/gzfw/dfyjcx/">答复意见查询-深圳社会保险基金管理局 <u>www.szsi.gov.cn</u></a>
-        <a href="https://ipcrs.pbccrc.org.cn/">个人信用信息服务平台 <u>ipcrs.pbccrc.org.cn</u></a>
-        <a href="http://liuyan.people.com.cn/forum/list?fid=266">地方领导留言板 <u>liuyan.people.com.cn</u></a>
-        <a href="http://61.142.120.214:9000/web/salestable.jsp?buildingcode=DYW0020600402&projectcode=DYW00206004">楼盘销售表
-            <u>61.142.120.214:9000</u></a>
-    </dd>
-
-    <dt>信息资讯</dt>
-    <dd>
-        <a href="http://top.baidu.com/buzz?b=1&fr=topindex">实时热点排行榜--百度搜索风云榜 <u>top.baidu.com</u></a>
-        <a href="https://weibo.com/?category=1760">微博-随时随地发现新鲜事 <u>weibo.com</u></a>
-        <a href="http://s.weibo.com/top/summary">微博热搜 - 微博 <u>s.weibo.com</u></a>
-        <a href="http://weixin.sogou.com/">搜狗微信搜索 <u>weixin.sogou.com</u></a>
-        <a href="http://www.gsdata.cn/rank/wxarc">热门微信文章排行榜 - 清博指数 <u>www.gsdata.cn</u></a>
-        <a href="http://news.163.com/rank/">新闻排行榜_网易新闻 <u>news.163.com</u></a>
-        <a href="http://fund.eastmoney.com/f10/jjfl_000693.html">建信现金添利货币A <u>fund.eastmoney.com</u></a>
-        <a href="http://www.soocang.com/">搜藏网-中国艺术收藏投资界综合门户网站 <u>www.soocang.com</u></a>
-        <a href="http://www.cyzone.cn/">创业邦 - 全维度创业者服务平台 <u>www.cyzone.cn</u></a>
-        <a href="https://codemart.com/">码市 - 互联网软件外包服务平台 <u>codemart.com</u></a>
-        <a href="https://www.zhipin.com/">BOSS直聘-互联网招聘神器！ <u>www.zhipin.com</u></a>
-        <a href="http://lusongsong.com/">卢松松博客 <u>lusongsong.com</u></a>
-        <a href="http://www.zouzhiqiang.com/daohang/">个人网站大全 <u>www.zouzhiqiang.com</u></a>
-        <a href="http://blog.knownsec.com/Knownsec_RD_Checklist/index.html">知道创宇研发技能表v3.1  <u>blog.knownsec.com</u></a>
-    </dd>
-
-    <dt>android</dt>
-    <dd>
-        <a href="http://www.romjd.com/">ROM基地 <u>www.romjd.com</u></a>
-        <a href="http://www.phoenixos.com/download_x86">凤凰系统x86版 - Phoenix OS <u>www.phoenixos.com</u></a>
-        <a href="https://bbs.jide.com/forum.php">Remix OS <u>bbs.jide.com</u></a>
-        <a href="https://www.deepin.org">深度系统 <u>www.deepin.org</u></a>
-        <a href="http://blog.csdn.net/lhf_tiger/article/details/7102753">linux 查看系统信息命令(比较全) <u>blog.csdn.net</u></a>
-        <a href="https://baijiahao.baidu.com/s?id=1586016551590193087&wfr=spider&for=pc">Linux+Virtualbox虚拟Android7.1环境
-            <u>baijiahao.baidu.com</u></a>
-        <a href="http://www.x86android.com/thread-150093-1-1.html">Android-x86 7.1-r1 (Nougat-x86)
-            <u>www.x86android.com</u></a>
-        <a href="https://www.fosshub.com/Android-x86.html">Download Android-x86 <u>www.fosshub.com</u></a>
-        <a href="http://www.dcloud.io/wap2app.html">wap2app 将M站快速转换成App的开发框架 - DCloud <u>www.dcloud.io</u></a>
-    </dd>
-    
-    <dt>UED</dt>
-    <dd>
-        <a href="http://www.miued.com/">蓝色早晨-UED | 艺术与设计 <u>www.miued.com</u></a>
-        <a href="https://www.jiawin.com/">觉唯设计_用户体验设计分享平台 <u>www.jiawin.com</u></a>
-        <a href="http://ued.qq.com/">腾讯网UED | 官方网站 <u>ued.qq.com</u></a>
-        <a href="http://www.aliued.cn/">阿里巴巴  <u>www.aliued.cn</u></a>
-        <a href="http://uedc.163.com">网易用户体验设计中心 <u>uedc.163.com</u></a>
-        <a href="http://ued.qunar.com">Qunar UED <u>ued.qunar.com</u></a>
-        <a href="http://jdc.jd.com/">JDC | 京东设计中心 <u>jdc.jd.com</u></a>
-        <a href="http://ued.baidu.com">百度用户体验中心 <u>ued.baidu.com</u></a>
-        <a href="http://hao.uisdc.com/">SDC设计师网址导航  <u>hao.uisdc.com</u></a>
-    </dd>
-
-    
-    <dt>BBS/forum</dt>
-    <dd>
-        <a href="https://bbs.csdn.net">CSDN <u>bbs.csdn.net</u></a>
-        <a href="https://www.52pojie.cn/forum.php?mod=guide&view=newthread">吾爱破解 <u>www.52pojie.cn</u></a>
-        <a href="https://szbbs.sznews.com/forum.php?mod=guide&;view=hot">深圳论坛 <u>szbbs.sznews.com</u></a>
-        <a href="https://www.sogou.com/web?ie=utf8&amp;query=%E4%B8%87%E5%B9%B4%E5%8E%86">万年历 - 搜狗搜索
-            <u>www.sogou.com</u></a>
-        <a href="http://bbs.szhome.com">家在深圳</u></a>
-    </dd>
-    
-    <dt>地图</dt>
-    <dd>
-        <a href="http://www.google.cn/maps">google <u>www.google.cn</u></a>
-        <a href="https://ditu.baidu.com">百度 <u>ditu.baidu.com</u></a>
-        <a href="http://map.sogou.com/">搜狗 <u>map.sogou.com</u></a>
-        <a href="https://ditu.amap.com">高德 <u>ditu.amap.com</u></a>
-    </dd>
-    
-    <dt>关键字</dt>
-    <dd>
-        <a href="https://cn.bing.com/search?q=%E5%85%AC%E5%BC%80%E8%AF%BE">公开课 - bing <u>cn.bing.com</u></a>
-        <a href="https://www.sogou.com/web?ie=utf8&amp;query=%E4%B8%87%E5%B9%B4%E5%8E%86">万年历 - 搜狗搜索
-            <u>www.sogou.com</u></a>
-        <a href="https://www.baidu.com/s?wd=深圳租房">深圳租房</a>
-    </dd>
-
-    <dt>更多</dt>
-    <dd>
-        <a href="https://www.baidu.com/more/">百度产品大全 <u>www.baidu.com</u></a>
-        <a href="http://www.sogou.com/docs/more.htm">搜狗产品大全 <u>www.sogou.com</u></a>
-        <a href="http://www.so.com/zt/so_products.html">360产品大全 <u>www.so.com</u></a>
-        <a href="http://sitemap.163.com/">网站地图_网易 <u>sitemap.163.com</u></a>
-        <a href="http://news.sina.com.cn/guide/">新浪网站导航_新浪网 <u>news.sina.com.cn</u></a>
-    </dd>
-</dl>
-    <body></html>
