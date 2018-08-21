@@ -18,6 +18,8 @@ https://www.processon.com/popular/ProcessOn
 https://tool.lu/程序员的工具箱
 http://sfz.uzuzuz.com/身份证号码生成
 https://www.fakenamegenerator.com/GenerateaRandomName
+http://www.gsxt.gov.cn/index.html/企业信用查询
+https://www.tianyancha.com/天眼查
 https://szjzz.szga.gov.cn/index/queryHouseCode/深圳居住证平台房屋编码查询
 http://www.szjs.gov.cn/bsfw/zdyw_1/zfbz/gxfgs/公租房轮候信息公示-深圳住房和建设局
 http://www.szga.gov.cn/JMHD/ZXTSDF/信箱回复«警民互动«深圳市公安局
