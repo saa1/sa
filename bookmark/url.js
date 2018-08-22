@@ -8,7 +8,7 @@ http://v3.bootcss.com/css/#helper-classes/全局CSS样式Bootstrapv3中文文档
 https://www.magentonotes.com/tool/layoutit/Bootstrap可视化布局系统
 http://fontello.com/Fontello-文件图标
 https://packagist.org/compostorphppackage
-http://docs.phalapi.net/#/v2.0/PhalApi(π框架)
+http://www.phalapi.net/PhalApi(π框架)
 http://ai.baidu.com/docs#/FaceLogin/top/文档中心--百度AI
 http://cdn.code.baidu.com/百度静态资源公共库
 https://chajian.baidu.com/developer/extensions/api_index.html/百度浏览器应用开发文档
@@ -44,9 +44,6 @@ http://www.romjd.com/ROM基地
 http://www.phoenixos.com/download_x86/凤凰系统x86版-PhoenixOS
 https://bbs.jide.com/forum.php/RemixOS
 https://www.deepin.org/深度系统
-http://blog.csdn.net/lhf_tiger/article/details/7102753/linux查看系统信息命令(比较全)
-https://baijiahao.baidu.com/s?id=1586016551590193087&wfr=spider&for=pc/Linux+Virtualbox虚拟Android7.1环境
-http://www.x86android.com/thread-150093-1-1.html/Android-x867.1-r1(Nougat-x86)
 http://www.dcloud.io/wap2app.html/wap2app将M站快速转换成App的开发框架-DCloud
 http://www.miued.com/蓝色早晨-UED|艺术与设计
 https://www.jiawin.com/觉唯设计_用户体验设计分享平台
@@ -71,6 +68,3 @@ https://www.sogou.com/web?ie=utf8&amp;query=%E4%B8%87%E5%B9%B4%E5%8E%86/万年�
 https://www.baidu.com/s?wd=深圳租房/深圳租房
 https://www.baidu.com/more/百度产品大全
 http://www.sogou.com/docs/more.htm/搜狗产品大全
-http://www.so.com/zt/so_products.html/360产品大全
-http://sitemap.163.com/网站地图_网易
-http://news.sina.com.cn/guide/新浪网站导航_新浪网
