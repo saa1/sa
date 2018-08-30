@@ -1,0 +1,7 @@
+http://open.qq.com/腾讯开放平台
+https://open.weixin.qq.com/微信开放平台
+https://open.alipay.com/platform/home.htm/蚂蚁金服开放平台
+http://open.taobao.com/淘宝开放平台
+https://market.aliyun.com/data/API接口大全_阿里云
+https://open.1688.com/阿里巴巴开放平台
+https://ai.baidu.com/百度AI开放平台
