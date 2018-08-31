@@ -1,17 +1,15 @@
 $(function () {
     function list(kw) {
-        $.get("url.js", function (data) {
+        var url = kw ? 'url_'+kw+'.txt':'url.js';
+        $.get(url, function (data) {
             var lists = data.split("\n");
             var htm = '';
             if (lists.length) {
                 $.each(lists, function (k, v) {
-                    var v1 = kw ? (v.indexOf(kw) > 0 ? v : '') : v;
-                    if (v1) {
                         var path = v1.split('/');
                         var name = path.pop();
                         var url = path.join('/');
                         htm += '<a style="background-image: url(\'' + path[0] + '//' + path[2] + '/favicon.ico\')" href="' + url + '">' + name + ' <u>' + url + '</u></a>';
-                    }
                 });
 
             }
@@ -19,20 +17,17 @@ $(function () {
         }, 'text');
     }
 
-    function kw() {
-        var kw = $('#kw').val();
-        if (!kw) return 0;
-        list(kw);
+    function nav() {
+        var htm = '';
+        $.each(['api','bbs','doc','code','git','gov','top','ued'], function (k, v) {
+                        htm += '<b title="' + v + '">' +v + '</b>';
+                });
+        $('#navB').html(htm || '<a href="http://kk-a.com/s/?' + $('#kw').val() + '">Search</a>');
+        list('doc');
     }
 
-    list();
-    $("#find").click(function () {
-        kw();
-    });
-
-    $("#kw").keydown(function (e) {
-        if (e.keyCode == 13) {
-            kw();
-        }
+    nav();
+    $("b").click(function () {
+        list($(this).attr('title'));
     });
 });
