@@ -6,11 +6,13 @@ $(function () {
             var htm = '';
             if (lists.length) {
                 $.each(lists, function (k, v) {
-                        var path = v1.split('/');
+                    if(v){
+                        var path = v.split('/');
                         var name = path.pop();
                         var url = path.join('/');
                         htm += '<a style="background-image: url(\'' + path[0] + '//' + path[2] + '/favicon.ico\')" href="' + url + '">' + name + ' <u>' + url + '</u></a>';
-                });
+                    }
+                 });
 
             }
             $('div').html(htm || '<a href="http://kk-a.com/s/?' + $('#kw').val() + '">Search</a>');
