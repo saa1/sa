@@ -1,4 +1,5 @@
 http://caibaojian.com/es6/let.html/ES6文档
+http://www.expressjs.com.cn/4x/api.html#res.end/Express 4.x - API 中文手册
 http://www.runoob.com/cssref/css-selectors.html/CSS选择器|菜鸟教程
 https://www.yiibai.com/mysql/mysql_max_function.html/MySQL教程
 http://www.ofmonkey.com/docs/contenttype/Content-type参考
