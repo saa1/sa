@@ -23,6 +23,7 @@ body {
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
+  width: auto;
 }
 .navbar-wrapper .navbar {
   padding-right: 15px;
