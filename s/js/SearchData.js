@@ -8,6 +8,7 @@ cn:[
     {title: "360",url: "http://so.360.cn/s?q="},
     {title: "国搜",url: "http://www.chinaso.com/search/pagesearch.htm?q="},
     {title: "Bing",url: "http://cn.bing.com/search?q="},
+    {title: "实用",url: "https://cn.18dao.net/index.php?title=特殊%3A搜索&fulltext=1&search="},
     {title: "WAP",url: "https://m.baidu.com/s?word="}
     ]
 },
