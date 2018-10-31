@@ -17,7 +17,7 @@ cn:[
     {title: "百度",url: "http://news.baidu.com/ns?word={keyword:gbk}"},
     {title: "搜狗",url: "http://news.sogou.com/news?query={keyword:gbk}"},
     {title: "凤凰",url: "http://search.ifeng.com/sofeng/search.action?q="},
-    {title: "和讯",url: "http://so.hexun.com/default.do?type=all&key="},
+    {title: "和讯",url: "http://so.hexun.com/default.do?type=all&key={keyword:gbk}"},
     {title: "头条",url: "https://s.eastday.com/?kw="}
   ]
 },
@@ -27,7 +27,7 @@ cn:[
     {title: "帖吧",url: "http://tieba.baidu.com/f/search/res?ie=utf-8&qw="},
     {title: "微信",url: "http://weixin.sogou.com/weixin?type=2&ie=utf8&tsn=1&ft=&et=&interation=&wxid=&usip=&query="},
     {title: "微博",url: "http://s.weibo.com/weibo/{open}"},
-    {title: "和讯",url: "http://so.hexun.com/default.do?type=all&key="},
+    {title: "QQ部落",url: "https://buluo.qq.com/p/search.html?keyword="},
     {title: "CSDN",url: "http://so.csdn.net/search?t=blog&q="}
   ]
 },
