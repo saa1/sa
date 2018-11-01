@@ -140,9 +140,11 @@ cn:[
   items: [
     {title: "淘宝",url: "https://s.taobao.com/search?q="},
     {title: "一淘",url: "https://www.etao.com/search.htm?nq="},
-    {title: "京东",url: "http://search.360buy.com/Search?keyword={keyword:gbk}"},
-    {title: "1688",url: "http://search.china.alibaba.com/search/offer_search.htm?tracelog=chinaindex_searchsale&do=true&doSearchNews=true&catcount=10&keywords={keyword:gbk}"},
+    {title: "京东",url: "https://search.jd.com/Search?enc=utf-8&spm=2.1.7&keyword="},
+    {title: "1688",url: "https://s.1688.com/selloffer/offer_search.htm?keywords={keyword:gbk}"},
     {title: "阿里",url: "http://www.alibaba.com/trade/search?SearchText={keyword}"},
+    {title: "苏宁",url: "http://search.suning.com/{keyword}/"},
+    {title: "国美",url: "https://search.gome.com.cn/search?searchType=goods&search_mode=normal&question="},
     {title: "aliex",url: "http://www.aliexpress.com/wholesale?SearchText={open}"},
     {title: "Amazon",url: "https://www.amazon.com/s/ref=nb_ss_gw/002-0555077-8828815?url=search-alias%3Daps&field-keywords={open}"},
     {title: "eBay",url: "http://www.ebay.com/sch/i.html?_sacat=0&_nkw={open}"}
