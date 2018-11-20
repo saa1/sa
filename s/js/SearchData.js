@@ -28,6 +28,7 @@ cn:[
     {title: "帖吧",url: "http://tieba.baidu.com/f/search/res?ie=utf-8&qw="},
     {title: "微信",url: "http://weixin.sogou.com/weixin?type=2&ie=utf8&tsn=1&ft=&et=&interation=&wxid=&usip=&query="},
     {title: "微博",url: "http://s.weibo.com/weibo/{open}"},
+    {title: "新浪博",url: "http://search.sina.com.cn/?ie=utf-8&e=utf-8&range=article&t=&s=sup&by=all&type=&stype=1&c=blog&q="},
     {title: "QQ部落",url: "https://buluo.qq.com/p/search.html?keyword="},
     {title: "CSDN",url: "http://so.csdn.net/search?t=blog&q="}
   ]
