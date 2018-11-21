@@ -5,3 +5,4 @@ http://open.taobao.com/淘宝开放平台
 https://market.aliyun.com/data/API接口大全_阿里云
 https://open.1688.com/阿里巴巴开放平台
 https://ai.baidu.com/百度AI开放平台
+https://we.taobao.com/阿里创作平台
