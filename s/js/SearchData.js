@@ -64,6 +64,7 @@ cn:[
   items: [
     {title: "百度",url: "http://v.baidu.com/v?ie=utf-8&word="},
     {title: "优酷",url: "http://www.soku.com/search_video/q_"},
+    {title: "bili",url: "https://search.bilibili.com/all?keyword="},
     {title: "搜狗",url: "http://v.sogou.com/v?ie=utf8&p=76330600&query="},
     {title: "CNTV",url: "http://search.cctv.com/search.php?qtext={keyword}&sid=0000"}
   ]
