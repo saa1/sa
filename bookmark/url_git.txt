@@ -2,3 +2,4 @@ https://github.com/nhnent/tui.calendar/A JavaScript calendar that has everything
 https://github.com/expressjs/express/express: Fast, unopinionated, minimalist web framework for node.
 https://github.com/HackathonHackers/personal-sites/List of Hackathon Hackers' personal sites.
 https://github.com/sdc-alibaba/SUI-Mobile/sdc-alibaba/SUI-Mobile: SUI Mobile (MSUI)是由阿里巴巴国际UED前端出品的移动端UI库，轻量精美
+https://github.com/linlinjava/litemall/linlinjava/litemall: 又一个小商城。litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端
