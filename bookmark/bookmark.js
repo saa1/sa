@@ -21,7 +21,7 @@ $(function () {
 
     function nav() {
         var htm = '';
-        $.each(['api','app','bbs','doc','code','git','gov','job','site','top','ued'], function (k, v) {
+        $.each(['api','app','bbs','doc','code','git','gov','job','site','ued'], function (k, v) {
                         htm += '<b title="' + v + '">' +v + '</b>';
                 });
         $('#navB').html(htm || '<a href="http://kk-a.com/s/?' + $('#kw').val() + '">Search</a>');
