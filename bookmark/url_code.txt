@@ -5,8 +5,6 @@ http://fontello.com/Fontello-文件图标
 https://packagist.org/compostorphppackage
 http://www.phalapi.net/PhalApi(π框架)
 http://ai.baidu.com/docs#/FaceLogin/top/文档中心--百度AI
-https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index/微信公众平台接口测试
-http://www.atool.org/chinese2unicode.php/中文汉字Unicode互相转换工具
 http://www.runoob.com/cssref/css-selectors.html/CSS选择器|菜鸟教程
 https://www.yiibai.com/mysql/mysql_max_function.html/MySQL教程
 http://www.ofmonkey.com/docs/contenttype/Content-type参考
@@ -15,9 +13,4 @@ https://www.magentonotes.com/tool/layoutit/Bootstrap可视化布局系统
 https://www.bootcdn.cn/开源项目免费 CDN 加速服务
 https://chajian.baidu.com/developer/extensions/api_index.html/百度浏览器应用开发文档
 http://see.sl088.com/wiki/%E5%88%86%E7%B1%BB:Chrome%E6%89%A9%E5%B1%95/分类:Chrome扩展
-http://ocr.wdku.net/文字识别
-https://www.processon.com/popular/ProcessOn
-https://tool.lu/程序员的工具箱
-http://sfz.uzuzuz.com/身份证号码生成
-https://www.fakenamegenerator.com/GenerateaRandomName
 https://segmentfault.com/SegmentFault 思否
