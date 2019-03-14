@@ -4,6 +4,7 @@ http://caibaojian.com/es6/let.html/ES6文档
 http://fontello.com/Fontello-文件图标
 https://packagist.org/compostorphppackage
 http://www.phalapi.net/PhalApi(π框架)
+https://beego.me/docs/intro//beego 简介 - beego: 简约 & 强大并存的 Go 应用框架
 http://ai.baidu.com/docs#/FaceLogin/top/文档中心--百度AI
 http://www.runoob.com/cssref/css-selectors.html/CSS选择器|菜鸟教程
 https://www.yiibai.com/mysql/mysql_max_function.html/MySQL教程
