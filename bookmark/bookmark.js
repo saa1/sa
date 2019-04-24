@@ -25,7 +25,7 @@ $(function () {
                         htm += '<b title="' + v + '">' +v + '</b>';
                 });
         $('#navB').html(htm || '<a href="http://kk-a.com/s/?' + $('#kw').val() + '">Search</a>');
-        list('doc');
+        list('job');
     }
 
     nav();
