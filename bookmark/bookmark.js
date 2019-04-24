@@ -15,7 +15,7 @@ $(function () {
                  });
 
             }
-            $('div').html(htm || '<a href="http://kk-a.com/s/?' + $('#kw').val() + '">Search</a>');
+            $('div').html(htm || '<a href="../s/?' + $('#kw').val() + '">Search</a>');
         }, 'text');
     }
 
@@ -24,7 +24,7 @@ $(function () {
         $.each(['api','app','bbs','doc','code','gov','job','site','tool','ued'], function (k, v) {
                         htm += '<b title="' + v + '">' +v + '</b>';
                 });
-        $('#navB').html(htm || '<a href="http://kk-a.com/s/?' + $('#kw').val() + '">Search</a>');
+        $('#navB').html(htm || '<a href="../s/?' + $('#kw').val() + '">Search</a>');
         list('job');
     }
 
