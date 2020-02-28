@@ -10,7 +10,7 @@ $(function () {
                         var path = v.split('/');
                         var name = path.pop();
                         var url = path.join('/');
-                        htm += '<a style="background-image: url(\'' + path[0] + '//' + path[2] + '/favicon.ico\')" href="' + url + '">' + name + ' <u>' + url + '</u></a>';
+                        htm += '<a href="' + url + '"><img src="' + path[0] + '//' + path[2] + '">' + name + ' <u>' + url + '</u></a>';
                     }
                  });
 
