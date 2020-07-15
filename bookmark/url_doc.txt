@@ -6,3 +6,4 @@ http://www.ofmonkey.com/docs/contenttype/Content-type参考
 http://v3.bootcss.com/css/#helper-classes/全局CSS样式Bootstrapv3中文文档
 https://www.magentonotes.com/tool/layoutit/Bootstrap可视化布局系统
 http://fontello.com/Fontello-文件图标
+https://support.microsoft.com/zh-cn/office/today-%E5%87%BD%E6%95%B0-5eb3078d-a82c-4736-8930-2f51a028fdd9/TODAY 函数 - Office 支持
