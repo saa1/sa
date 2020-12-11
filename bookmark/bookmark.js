@@ -21,7 +21,7 @@ $(function () {
 
     function nav() {
         var htm = '';
-        $.each(['api','app','bbs','doc','code','gov','job','site','tool','ued'], function (k, v) {
+        $.each(['api','app','bbs','doc','code','gov','job','site','tool','ued','pan'], function (k, v) {
                         htm += '<b title="' + v + '">' +v + '</b>';
                 });
         $('#navB').html(htm || '<a href="../s/?' + $('#kw').val() + '">Search</a>');
