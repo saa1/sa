@@ -38,6 +38,10 @@ cn:[
   items: [
     {title: "百度",url: "http://shouji.baidu.com/s/{keyword}/"},
     {title: "搜狗",url: "http://as.sogou.com/so?query="},
+    {title: "华为",url: "https://appgallery.huawei.com/#/search/"},
+    {title: "360",url: "http://zhushou.360.cn/search/index/?kw="},
+    {title: "小米",url: "https://app.mi.com/searchAll?keywords="},
+    {title: "安智",url: "http://www.anzhi.com/search.php?keyword="},
     {title: "应用宝",url: "http://android.myapp.com/myapp/search.htm?kw="}
     ]
 },
